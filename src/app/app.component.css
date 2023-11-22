@@ -1,0 +1,55 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura completa de la ventana */
+  }
+  
+  .custom-navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .custom-button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #333;
+  }
+  
+  .custom-menu {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  .custom-menu button {
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-menu button:hover {
+    background-color: #333;
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Asegura que el contenido principal ocupe el espacio restante en el contenedor */
+    padding: 20px;
+  }
+  
+  

@@ -9,6 +9,11 @@
   },
   "include": [
     "src/**/*.spec.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
     "src/**/*.d.ts"
-  ]
+  ],
+  "exclude": [
+    "node_modules"
+  ],
 }
